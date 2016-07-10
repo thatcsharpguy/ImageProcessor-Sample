@@ -82,6 +82,14 @@ namespace ImageProcessorSample
 										 .Save("photo/motherboardFlipped.jpg");
 				
 			}
+
+
+
+			// Cognitive services:
+			if (!String.IsNullOrEmpty(Keys.CognitiveServices))
+			{
+				
+			}
 		}
 	}
 }
